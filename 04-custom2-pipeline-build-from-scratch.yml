@@ -33,7 +33,7 @@ stages:
             script: |
               # Write your commands here
               
-              echo Contents in System Default Working Directory; ls -R $(System.DefaultWorkingDirectoty)
+              echo Contents in System Default Working Directory; ls -R $(System.DefaultWorkingDirectory)
         
         - task: Bash@3
           inputs:
